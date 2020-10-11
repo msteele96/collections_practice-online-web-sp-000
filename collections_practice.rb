@@ -23,7 +23,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker
+def kesha_maker(array)
   kesha_names = []
   array.each do |kesha|
     kesha_names.push(kesha= "..$.")
