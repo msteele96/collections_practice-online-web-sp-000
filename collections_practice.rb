@@ -27,5 +27,6 @@ def kesha_maker
   kesha_names = []
   array.each do |kesha|
     kesha_names.push(kesha= "..$.")
-
+  end
+  return kesha_names
 end
