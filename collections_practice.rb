@@ -16,7 +16,7 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  array.inser(index, array.delete_at(destination_index))
+  array.insert(index, array.delete_at(destination_index))
 end
 
 def reverse_array(array)
