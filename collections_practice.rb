@@ -1,5 +1,3 @@
-require "pry"
-
 def sort_array_asc(array)
   array.sort
 end
@@ -29,7 +27,6 @@ def kesha_maker(array)
   kesha_names = []
   array.each do |kesha|
     kesha_names.push(kesha[2]= "$")
-    binding.pry
   end
   return kesha_names
 end
