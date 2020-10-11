@@ -26,7 +26,7 @@ end
 def kesha_maker(array)
   kesha_names = []
   array.each do |kesha|
-    kesha_names.push(kesha[3]= "$"))
+    kesha_names.push(kesha[2]= "$"))
   end
   return kesha_names
 end
