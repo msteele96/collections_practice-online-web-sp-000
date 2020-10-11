@@ -30,7 +30,7 @@ describe 'collections practice' do
     end
   end
 
-  describe '#swap_elements_from_to' do 
+  describe '#swap_elements_from_to' do
     it "swaps the elements from and to the desired indices of an array" do
       expect(swap_elements_from_to([1,2,8,4,5,6,7,3],2,7)).to eq([1,2,3,4,5,6,7,8])
     end
