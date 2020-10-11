@@ -24,9 +24,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesha_names = []
   array.each do |kesha|
-    kesha_names.push(kesha[2]= "$")
+    kesha[2]= "$"
   end
-  return kesha_names
+end
+
+def find_a(array)
+  
 end
